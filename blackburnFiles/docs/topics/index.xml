@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on 日常茶飯事</title>
-    <link>/topics/</link>
+    <link>/blog/topics/</link>
     <description>Recent content in Topics on 日常茶飯事</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019. All rights reserved.</copyright>
     
-	<atom:link href="/topics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
