@@ -7,6 +7,9 @@ copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
 hasCJKLanguage = true
+publishDir = "docs"
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 
 [indexes]
   tag = "tags"
