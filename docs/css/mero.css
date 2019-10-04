@@ -17,14 +17,14 @@ a:hover {
   color: #a57e09 !important;
 }
 code {
-  font-family: "NotoSansCJKkr", monospace;
+  font-family: "Noto Sans CJK KR", monospace;
   color: #04dac6 !important;
 }
 a:hover {
   text-decoration: none;
 }
 * {
-  font-family: "NotoSansCJKkr", cursive;
+  font-family: "Noto Sans CJK KR", monospace;
 }
 .bg-dark,
 .btn-dark {
