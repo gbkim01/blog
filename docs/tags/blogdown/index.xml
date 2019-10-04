@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on 日常茶飯事</title>
+    <link>https://gbkim01.github.io/blog/tags/blogdown/</link>
+    <description>Recent content in blogdown on 日常茶飯事</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gbkim01.github.io/blog/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>블로그에 첫 글을 남긴다.</title>
+      <link>https://gbkim01.github.io/blog/post/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%B2%AB-%EA%B8%80%EC%9D%84-%EB%82%A8%EA%B8%B4%EB%8B%A4/</link>
+      <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gbkim01.github.io/blog/post/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%B2%AB-%EA%B8%80%EC%9D%84-%EB%82%A8%EA%B8%B4%EB%8B%A4/</guid>
+      <description>spss나 stata 정도 돌려서 회귀분석이나 해본게 전부인 문과생인데 최근 몇달 동안 R과 파이썬을 들여다보고 있다. 사실은 다른 할 일들은 좀체 하기 싫어서 그냥 외도하는</description>
+    </item>
+    
+  </channel>
+</rss>

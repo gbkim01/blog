@@ -3,116 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/post/post-1/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/post/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/categories/hugo/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/categories/r/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/r%EB%AC%B8%EB%B2%95/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/tags/tutorial/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/post/%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%97%90%EC%84%9C-%EC%A7%9D%EC%88%98%ED%96%89%EA%B3%BC-%ED%99%80%EC%88%98%ED%96%89-%EC%84%A0%EB%B3%84%ED%95%98%EB%8A%94-%EB%8B%A4%EB%A5%B8-%EB%B0%A9%EB%B2%95/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/blogs/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/web-scraping/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/categories/category-1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/post/%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%97%90%EC%84%9C-%EC%A7%9D%EC%88%98%ED%96%89%EA%B3%BC-%ED%99%80%EC%88%98%ED%96%89-%EC%84%A0%EB%B3%84%ED%95%98%EA%B8%B0/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/tags/random/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/rselenium/</loc>
+    <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/blogs/blog-1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/rvest/</loc>
+    <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post/post-3/</loc>
-    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/post/web-scraping-with-r-www-climatewatchdata-org/</loc>
+    <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/categories/category-11/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/blogdown/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/tags/random1/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/daily/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/tags/random2/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/tags/newpost/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/blogs/blog-2/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/post/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%B2%AB-%EA%B8%80%EC%9D%84-%EB%82%A8%EA%B8%B4%EB%8B%A4/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post/post-2/</loc>
-    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/categories/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC/</loc>
+    <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/post/post-4/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+    <loc>https://gbkim01.github.io/blog/archive/</loc>
   </url>
   
   <url>
-    <loc>/blog/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/archive/</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/alltaxa/</loc>
+    <loc>https://gbkim01.github.io/blog/alltaxa/</loc>
   </url>
   
 </urlset>

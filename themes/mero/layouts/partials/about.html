@@ -4,7 +4,11 @@
 >
   <b>About</b>
 </h4>
-<h1>I am {{ .Site.Params.author }}.</h1>
+<h1>{{ .Site.Params.author }}</h1>
+<h3>{{ .Site.Params.description }}</h3>
 <p>
-  {{- .Site.Params.introduction.text | markdownify -}}
+  {{- .Site.Params.introduction.text1 | markdownify -}}
+</p>
+<p>
+  {{- .Site.Params.introduction.text2 | markdownify -}}
 </p>
