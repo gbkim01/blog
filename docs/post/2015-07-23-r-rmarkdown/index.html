@@ -1,238 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+  <head>
+  <title>日常茶飯事</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="시덥잖은 일들로 시시덕거린다." />
+  <meta name="author" content="gbkim01" />
+  <meta name="generator" content="mero theme by Darshan in Hugo 0.58.3" />
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.58.3" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
 
-  <title>Hello R Markdown &middot; 日常茶飯事</title>
-
-    
-
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="/css/side-menu.css">
-  <!--<![endif]-->
-
-  <link rel="stylesheet" href="/css/blackburn.css">
-
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
-
-  
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
- 
-  
-
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-  <script>hljs.initHighlightingOnLoad();</script>
-  
-
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-
-  
-  
-
+  <script src="/js/mero.js"></script>
 </head>
 
-
-<body>
-<div id="layout">
-
-  
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="/">日常茶飯事</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-    </ul>
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="/post/">Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="/blogs/">Blogs</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Taxa</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
   </div>
+</nav>
 
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/gbkim01" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </ul>
-</div>
-
-
-  <div>
-  <div class="small-print">
-    <small>&copy; 2019. All rights reserved.</small>
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Hello R Markdown
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2015-07-23</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+1 min
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/post"
+        title="Section"
+      >Posts</a>
+    </div>
   </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>Hello R Markdown</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>2015-07-23</time>
-  </div>
-
-  
-
   
 
   
   
   
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
     
-      <a class="post-taxonomy-tag" href="/tags/r-markdown">R Markdown</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/plot">plot</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/regression">regression</a>
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/r"
+      title="categories"
+    >R</a>
     
   </div>
   
   
-
-</div>
-
   
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/r-markdown"
+      title="tags"
+    >R Markdown</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/plot"
+      title="tags"
+    >plot</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/regression"
+      title="tags"
+    >regression</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    
 
 
 <div id="r-markdown" class="section level1">
@@ -275,114 +212,49 @@ Figure 1: A fancy pie chart.
 </div>
 </div>
 
-  
-  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2015-07-23-r-rmarkdown%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=%2fpost%2f2015-07-23-r-rmarkdown%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=%2fpost%2f2015-07-23-r-rmarkdown%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=%2fpost%2f2015-07-23-r-rmarkdown%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2015-07-23-r-rmarkdown%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=%2fpost%2f2015-07-23-r-rmarkdown%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
-
-  
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="/post/goisforlovers/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="/post/goisforlovers/">(Hu)go Template Primer</a>
-    </nav>
-    
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/post/post-4/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Title of the post 4"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
   </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="/post/migrate-from-jekyll/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
+  <div><i class="text-secondary fas fa-chevron-circle-right" style="font-size: 2em;"></i></div>
 </div>
 
-
-
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'gbkim01';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-</div>
+      </main>
+    </div>
+    <footer>
+  <div class="w-50 bg-danger ml-auto mr-auto mt-4" style="height: 2px;"></div>
+  <div class="mt-4 mb-2" style="font-size: 0.9em;">
+    <p class="text-center">
+      &copy; 2018 Name |
+      <a href="https://github.com/darshanbaral/mero.git">mero</a> theme by
+      <a href="https://www.darshanbaral.com">Darshan</a>
+    </p>
+  </div>
+</footer>
 
-</div>
-</div>
-<script src="/js/ui.js"></script>
-<script src="/js/menus.js"></script>
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>
-
