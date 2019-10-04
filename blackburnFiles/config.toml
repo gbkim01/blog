@@ -1,4 +1,4 @@
-baseurl = "https://gbkim01.github.io/blog/"
+baseurl = "https://gbkim01.github.io/"
 languageCode = "en-us"
 title = "日常茶飯事"
 theme = "blackburn"
