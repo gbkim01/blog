@@ -17,14 +17,14 @@ a:hover {
   color: #a57e09 !important;
 }
 code {
-  font-family: "Roboto Mono", monospace;
+  font-family: "NotoSansCJKkr", monospace;
   color: #04dac6 !important;
 }
 a:hover {
   text-decoration: none;
 }
 * {
-  font-family: "Overlock", cursive;
+  font-family: "NotoSansCJKkr", cursive;
 }
 .bg-dark,
 .btn-dark {
