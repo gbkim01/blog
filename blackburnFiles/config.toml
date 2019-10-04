@@ -6,6 +6,8 @@ author = "gbkim01"
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
+publishDir = "docs"
+hasCJKLanguage = true
 
 [indexes]
   tag = "tags"
