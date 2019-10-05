@@ -1,43 +1,211 @@
-baseURL = "/"
-languageCode = "en-us"
+baseurl = "/"
 title = "日常茶飯事"
-theme = "mero"
-disableKinds = ["taxonomyTerm"]
-publishDir = "docs"
+# Enable comments by entering your Disqus shortname
 disqusShortname = "gbkim01"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per page
+paginate = 10
+footnotereturnlinkcontents = ""
+theme = "hugo-statnmap-theme"
+hasCJKLanguage = true
+publishDir = "docs"
+
+# Uncomment the themesDir option if you do not use this theme in production
+# themesDir = "../.."
+
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-hasCJKLanguage = true 
+
+
+[permalinks]
+    post = "/:year/:month/:day/"
+
 
 [params]
-  dateFormat = "2006-01-02" 
-  author = "日常茶飯事"
-  description = "시덥잖은 일들로 시시덕거린다."
-  mainImage = "images/main.jpeg"
+    # Tell me who you are
+    author = "日常茶飯事"
+    bio = "시덥잖은 일들로 시시덕거린다."
+    location = "Earth"
+    site_description = ""
+    copyright  = "Powered by [Gbkim01](http://github.com/gbkim01)."
+    avatar = "css/images/avatar.png"
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = ""
+    logo = "css/images/logo.png"
+    squarelogo = "css/images/logo.png"
+    # sitelogo = "images/Logo_EN_centered_500dpi.png"
+    sitelogo = ""
+    # Only for small devices
+    logolong = "css/images/logo.png"
+    
+    # Set to true to disable code folding
+    disable_codefolding = true
+    # Set to "hide" or "show" all codes by default
+    codefolding_show = "hide"
+    # Code blocks to apply code folding
+    codeblocks = ["pre.sourceCode", "pre.r", "pre.python", "pre.bash", "pre.sql", "pre.cpp", "pre.stan", "pre.js", "pre.css", "pre.html", "pre.yaml"]
+    
+    disable_mathjax = false # set to true to disable MathJax
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+    
+    # options for highlight.js (version, additional languages, and theme)
+    disable_highlight = false
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "tomorrow-night-blue"
+    
+    # How to cite blog article
+    disable_citation = true
+    citation_author = "gbkim01"
+   
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["post"]
 
-[params.introduction]
-   text1 = "권태가 가시지 않아 뭐라도 할까 싶어 블로그를 만들었다. 마감은 다가오고 발등의 불은 눈썹 까지 옮겨 붙었건만, 모든 책무는 뒤로 미룬 채 불어터진 라면가닥처럼 바닥에 눌러 붙어 있다. 시험을 앞둔 학생이 책상 정리에 열을 올리는 것처럼, 만사 제친 소일거리에 도끼자루가 썩는다."
-   text2 = "코딩과는 무관한 문과생이 R과 파이썬을 흘낏한, 사사롭고도 무용한 결과물을 올리는 공간으로 이 블로그를 사용코자 한다. 덤으로 개인사 소소한 사담도 올리고…"
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
 
-[params.social]
-  [[params.social.list]]
-#  class = "fab"
-#  icon = "fa-linkedin-in"
-#  url = "#"
+    # Add custom assets with their paths relative to the static folder
+	  custom_css = []
+	  custom_js  = []
 
-  [[params.social.list]]
-#  class = "fab"
-#  icon = "fa-github"
-#  url = "gbkim01"
+    # Optional Params
+    # The set of favicons used are based on the write-up from this link:
+    # https://github.com/audreyr/favicon-cheat-sheet
+    # You can also add a favicon.ico container at the root of "static" folder
+    # Please see the favicon partial template for more information
+    # 1 - Create a favicon folder in "static".
+    # 2 - Create a favicon with 250*250px and 300*300px, named
+    # favicon-250.png and favicon-300.png
+    loadFavicon          = false
 
-  [[params.social.list]]
-#  class = "fab"
-#  icon = "fa-twitter"
-#  url = "#"
+    # Number of words of post summary
+    summary_length = 200
 
-  [[params.social.list]]
-#  class = "fab"
-#  icon = "fa-stack-overflow"
-#  url = "#"  
+# Create custom menu entries by defining a name and a url for
+# them. Since you can also link posts, you can use the weight
+# to define order of appearance.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+#
+# You can define menu names according to the translation
+# See <https://gohugo.io/content-management/multilingual/#configuring-multilingual-mode>
+# for more information
+DefaultContentLanguage = "en"
+  
+[Taxonomies]
+  tag = "tags"
+  category = "categories"
+  sticky = "stickies"
 
-[params.footer]
-  message = "&copy; 2019 Gbkim01"
+# [Languages]
+# [Languages.en]
+# LanguageName = "English"
+# title = "hugo-statnmap-theme"
+# bio = ""
+# weight = 1
+
+[[Languages.en.menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Blog"
+url = "/post/"
+weight = 2
+
+[[Languages.en.menu.main]]
+# name = "Sticky"
+# url = "/stickies/"
+# weight = 2
+
+[[Languages.en.menu.main]]
+# name = "StickyPages"
+# url = "/stickypages/"
+# weight = 2
+
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 3
+
+# [Languages.fr]
+# LanguageName = "Français"
+# title = "hugo-statnmap-theme fr"
+# bio = "A wordpress twenty-fifteen like theme"
+# weight = 2
+
+# [[Languages.fr.menu.main]]
+# name   = "Accueil"
+# url    = "/"
+# weight = 1
+
+# [[Languages.fr.menu.main]]
+# name = "Blog"
+# url = "/blog/"
+# weight = 2
+
+# [[Languages.fr.menu.main]]
+# name = "Contact"
+# url = "/contact/"
+# weight = 5
+
+# Enter a link for the follow button on the left
+[params.profile]
+    follow_button = "https://github.com/gbkim01"
+
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    github          = "gbkim01"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = ""
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = ""
+    googlescholar   = ""
+    orcid           = ""
+    researchgate    = ""
+    email           = ""
+
+    
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    language_switcher = false
+    recent_articles = true
+    categories = true
+    tags = true
+    tag_cloud = true
+
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = false
+canonifyURLs = true

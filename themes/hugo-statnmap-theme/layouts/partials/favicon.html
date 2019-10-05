@@ -1,0 +1,17 @@
+{{ if .Site.Params.loadFavicon }}
+    {{ with .Site.Params.faviconVersion }}
+        {{ $.Scratch.Set "favVer" "-" }}
+        {{ $.Scratch.Add "favVer" . }}
+    {{ else }}
+        {{ $.Scratch.Set "favVer" "" }}
+    {{ end }}
+
+    {{ $favVer := $.Scratch.Get "favVer" }}
+
+    <link rel="apple-touch-icon-precomposed"
+        href='/favicon/favicon-250.png'>
+    <link rel="icon" href="/favicon/favicon-250.png" sizes="32x32">
+    <link rel="icon" href="/favicon/favicon-250.png" sizes="192x192">
+    <meta name="msapplication-TileImage" content="/favicon/favicon-300.png" />
+
+{{ end }}

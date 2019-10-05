@@ -1,0 +1,49 @@
+{{ if gt (len .Site.Languages) 2 }}
+  <li class="lang-switcher main-dropdown more-than-two-lang">  
+    <a class="active" lang="{{ .Site.Language.Lang }}">
+      <img src="/flags/{{ .Site.Language.Lang }}.png" alt="{{ .Site.Language.Lang }}">
+    </a>
+    <ul class="main-dropdown-menu">
+    {{ if .IsTranslated -}}
+      {{ range .Translations }}
+          <li><a href="{{ .Permalink }}" lang="{{ .Lang }}">
+            <img src="/flags/{{ .Lang }}.png" alt="{{ .Lang }}">
+          </a></li>
+      {{ end }}
+    {{ else }}
+      {{ range .Site.Languages }}
+        {{ if not (eq .Lang site.Language.Lang) }}
+        <li><a href="/{{ .Lang }}" lang="{{ .Lang }}" class="no-translation">
+            <img src="/flags/{{ .Lang }}.png" alt="{{ .Lang }}">
+            <img alt="fr" src="/flags/Flag_NoTr.png" style="position: relative;top: -50%;width: 100%;padding: 0;margin: auto;">
+        </a></li>
+        {{ end }}
+    {{ end }}
+  {{ end }}  
+    </ul>
+  </li>
+{{ else }}
+  <li class="lang-switcher main-dropdown two-lang">  
+    <a class="active" lang="{{ .Site.Language.Lang }}">
+      <img src="/flags/{{ .Site.Language.Lang }}.png" alt="{{ .Site.Language.Lang }}">
+    </a>
+    <ul class="main-dropdown-menu">
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+          <li><a href="{{ .Permalink }}" lang="{{ .Lang }}">
+            <img src="/flags/{{ .Lang }}.png" alt="{{ .Lang }}">
+          </a></li>
+      {{ end }}
+    {{ else }}
+      {{ range .Site.Languages }}
+        {{ if not (eq .Lang site.Language.Lang) }}
+        <li><a href="" lang="{{ .Lang }}" class="no-translation">
+            <img src="/flags/{{ .Lang }}.png" alt="{{ .Lang }}">
+            <img alt="fr" src="/flags/Flag_NoTr.png" style="position: relative;top: -50%;width: 100%;padding: 0;margin: auto;">
+        </a></li>
+        {{ end }}
+    {{ end }}
+  {{ end }}  
+    </ul>
+  </li>
+{{ end }}

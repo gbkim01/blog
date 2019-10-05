@@ -1,0 +1,13 @@
+<script src="{{ "fancybox/jquery.fancybox.pack.js" | absURL }}"></script>
+<script src="{{ "js/script.js" | absURL }}"></script>
+
+{{ partial "footer_highlightjs" . }}
+{{ partial "footer_mathjax" . }}
+{{ if not .Site.Params.disable_codefolding }}
+  <script src="{{ "js/collapse.js" | relURL }}"></script>
+  <script src="{{ "js/dropdown.js" | relURL }}"></script>
+  <script src="{{ "js/transition.js" | relURL }}"></script>
+{{ end }}
+{{ range .Site.Params.custom_js }}
+<script src="{{ . | relURL }}"></script>
+{{ end }}

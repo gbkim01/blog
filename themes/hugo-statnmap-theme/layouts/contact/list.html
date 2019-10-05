@@ -1,0 +1,42 @@
+{{ define "main" }}
+<!-- Main -->
+<div id="main">
+<article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+  <div class="article-inner">
+    <header class="article-header">
+      <a href="{{ .Permalink }}" lang="{{ .Lang }}">
+        <h1 class="article-title" itemprop="name">
+            {{ .Title }}
+        </h1>
+      </a>
+    </header>
+    <div class="article-entry" itemprop="articleBody">
+      {{ .Content }}
+      <h4>{{ i18n "repliestext" }} {{ .Params.contactanswertime }} {{ i18n "hours" }}.</h4>                
+      <div class="contact-container">
+        <form id="contact" action="//{{ .Params.emailservice }}" method="post" center width="300px">
+          <fieldset>
+          <input placeholder="{{ .Params.contactname }}" type="text" name="name" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+          <input placeholder="{{ .Params.contactemail}}" type="email" name="_replyto" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+          <input placeholder="{{ .Params.contactsubject}}" type="text" name="_subject" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+          <textarea placeholder="{{ .Params.contactmessage}}" name="message" tabindex="4" required></textarea>
+          </fieldset>
+          <fieldset>
+          <input type="hidden" name="_language" value="{{ .Params.contactlang}}">
+          </fieldset>
+          <fieldset>
+          <button name="submit" class="button" type="submit" id="contact-submit" tabindex="5">{{ i18n "submit" }}</button>
+          </fieldset>
+        </form>
+      </div>
+  </div>
+  </div>
+</article>
+</div>
+{{ end }}

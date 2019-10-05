@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>URL 리스트 취합 &middot; 日常茶飯事</title>
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="日常茶飯事">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="/"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/academicons.min.css">
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/tomorrow-night-blue.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="URL 리스트 취합" />
+<meta property="og:description" content="웹 스크래핑은 타겟이 되는 인터넷 페이지의 url을 확인하는 것으로 시작한다. 한두 개의 웹페이지라면 모르겠지만 스크래핑 대상물이 여러 페이지에 흩어져 있다면 인" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2019/09/29/" />
+<meta property="article:published_time" content="2019-09-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-09-29T00:00:00+00:00" />
+
+    
+    <meta itemprop="name" content="URL 리스트 취합">
+<meta itemprop="description" content="웹 스크래핑은 타겟이 되는 인터넷 페이지의 url을 확인하는 것으로 시작한다. 한두 개의 웹페이지라면 모르겠지만 스크래핑 대상물이 여러 페이지에 흩어져 있다면 인">
+
+
+<meta itemprop="datePublished" content="2019-09-29T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-09-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1240">
+
+
+
+<meta itemprop="keywords" content="rvest,Rselenium,web scraping," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="URL 리스트 취합"/>
+<meta name="twitter:description" content="웹 스크래핑은 타겟이 되는 인터넷 페이지의 url을 확인하는 것으로 시작한다. 한두 개의 웹페이지라면 모르겠지만 스크래핑 대상물이 여러 페이지에 흩어져 있다면 인"/>
+
+    
+
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "post",
+        "name" : "URL 리스트 취합",
+        "headline" : "URL 리스트 취합",
+        "description" : "웹 스크래핑은 타겟이 되는 인터넷 페이지의 url을 확인하는 것으로 시작한다. 한두 개의 웹페이지라면 모르겠지만 스크래핑 대상물이 여러 페이지에 흩어져 있다면 인",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2019",
+        "datePublished": "2019-09-29 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2019-09-29 00:00:00 \x2b0000 UTC",
+        "url" : "\/2019\/09\/29\/",
+        "wordCount" : "1240",
+        "keywords" : [ "rvest","Rselenium","web scraping","Blog" ]
+    }
+</script>
+
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="/" id="logo">
+          
+          <i class="logo" style="background-image: url('')"></i>
+          
+          <span class="site-title">日常茶飯事</span>
+      </a>
+      <a href="/" id="logolong">
+        
+        <img class="logolong" src="/css/images/logo.png">
+        
+      </a>
+      <nav id="main-nav">
+         <div href="/2019/09/29/" class="navbar-collapse collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              
+              <li class="main-dropdown">
+                
+                <a href="/">Home</a>
+                
+              </li>
+              
+              <li class="main-dropdown">
+                
+                <a href="/post/">Blog</a>
+                
+              </li>
+              
+              <li class="main-dropdown">
+                
+                <a href="/contact/">Contact</a>
+                
+              </li>
+              
+              <li class="main-dropdown">
+                
+                <a href="/"></a>
+                
+              </li>
+              
+              <li class="main-dropdown">
+                
+                <a href="/about/">About</a>
+                
+              </li>
+              
+            </ul>
+          </div>
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <nav class="right-nav">
+            
+        </nav>   
+    </div>     
+  </div> 
+  <div id="main-nav-mobile" class="header-sub header-inner">
+      <div class="navbar-collapse collapse" id="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          
+          <li class="main-dropdown">
+            
+            <a href="/">Home</a>
+            
+          </li>
+          
+          <li class="main-dropdown">
+            
+            <a href="/post/">Blog</a>
+            
+          </li>
+          
+          <li class="main-dropdown">
+            
+            <a href="/contact/">Contact</a>
+            
+          </li>
+          
+          <li class="main-dropdown">
+            
+            <a href="/"></a>
+            
+          </li>
+          
+          <li class="main-dropdown">
+            
+            <a href="/about/">About</a>
+            
+          </li>
+          
+        </ul>
+      </div>
+            
+    <table class="menu outer search-form">
+      <tbody>
+          <tr>
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>  
+</header>
+
+
+   	
+ 	<div class="outer">
+    <div id="sideleft">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+        
+        <img id="avatar" src="/css/images/avatar.png">
+        
+        <h2 id="name">日常茶飯事</h2>
+      
+      <h3 id="title">시덥잖은 일들로 시시덕거린다.</h3>
+      <span id="location"><i class="fas fa-map-marker"></i>Earth</span>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/gbkim01" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <td><a href="/post/index.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+   	
+    	<aside id="sidebar">
+    <div class="widget-wrap">
+  <div class="widget">
+    <ul id="search-form-wrap">
+      <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <button type="submit" class="search-form-submit">
+          </button>
+          <input type="hidden" name="sitesearch" value="/" />
+      </form>
+     </ul>
+  </div>
+</div>
+
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recents
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="/2019/10/04/" lang="en" class="thumbnail">
+                    
+                      
+                          <span class="thumbnail-image thumbnail-none"></span>
+                      
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    <p class="item-title"><a href="/2019/10/04/" lang="en" class="title">데이터 프레임에서 짝수행과 홀수행 선별하는 다른 방법</a></p>
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-date">
+                        <time datetime="2019-10-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">Posted on 2019-10-04</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="/2019/10/01/" lang="en" class="thumbnail">
+                    
+                      
+                          <span class="thumbnail-image thumbnail-none"></span>
+                      
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    <p class="item-title"><a href="/2019/10/01/" lang="en" class="title">데이터셋의 짝수행과 홀수행 구분</a></p>
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-date">
+                        <time datetime="2019-10-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">Posted on 2019-10-01</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="/2019/09/29/" lang="en" class="thumbnail">
+                    
+                      
+                          <span class="thumbnail-image thumbnail-none"></span>
+                      
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    <p class="item-title"><a href="/2019/09/29/" lang="en" class="title">URL 리스트 취합</a></p>
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-date">
+                        <time datetime="2019-09-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">Posted on 2019-09-29</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="/2019/09/28/" lang="en" class="thumbnail">
+                    
+                      
+                          <span class="thumbnail-image thumbnail-none"></span>
+                      
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    <p class="item-title"><a href="/2019/09/28/" lang="en" class="title">블로그에 첫 글을 남긴다.</a></p>
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="/categories/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC">
+                        일상다반사
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-date">
+                        <time datetime="2019-09-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">Posted on 2019-09-28</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/categories/r">
+                    r
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/categories/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC">
+                    일상다반사
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/blogdown">
+                    blogdown
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/daily">
+                    daily
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/newpost">
+                    newpost
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/rselenium">
+                    rselenium
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/rvest">
+                    rvest
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/r%EB%AC%B8%EB%B2%95">
+                    r문법
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="/tags/web-scraping">
+                    web-scraping
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="/tags/blogdown" style="font-size: 12px;">blogdown</a>
+        
+        
+        <a href="/tags/daily" style="font-size: 12px;">daily</a>
+        
+        
+        <a href="/tags/newpost" style="font-size: 12px;">newpost</a>
+        
+        
+        <a href="/tags/rselenium" style="font-size: 12px;">rselenium</a>
+        
+        
+        <a href="/tags/rvest" style="font-size: 12px;">rvest</a>
+        
+        
+        <a href="/tags/r%EB%AC%B8%EB%B2%95" style="font-size: 12px;">r문법</a>
+        
+        
+        <a href="/tags/web-scraping" style="font-size: 12px;">web-scraping</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fas fa-angle-up"></div>
+</aside>
+
+    
+    </div>
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="/2019/09/29/" lang="en">
+    <h1 class="article-title" itemprop="name">
+        URL 리스트 취합
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fas fa-calendar"></i>
+            <time datetime="2019-09-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">Posted on 2019-09-29</time>
+            &middot;
+            1240
+            words.
+            &middot;
+            3
+            minute read.
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fas fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="/categories/r">R</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fas fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="/tags/rvest">rvest</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/rselenium">Rselenium</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="/tags/web-scraping">web scraping</a>
+                
+                
+            </div>
+            
+        
+    </div>
+    
+
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            
+
+
+<p>웹 스크래핑은 타겟이 되는 인터넷 페이지의 url을 확인하는 것으로 시작한다. 한두 개의 웹페이지라면 모르겠지만 스크래핑 대상물이 여러 페이지에 흩어져 있다면 인터넷 주소를 취합하는 간단한 작업도 초보자에겐 큰 장애물이 된다. 그러나 문법이 조금 익숙한 사용자라면 반복문을 사용하여 좀 더 간편하게 필요한 url 리스트를 구성할 수 있다. 통상의 웹페이지 주소는 main URl에 인덱스가 붙는 형식으로 구성되어 있기 때문이다. 예컨데 이렇게 말이다.</p>
+<pre class="r"><code>main &lt;- &quot;www.main_url.co.kr/search=&quot;
+search &lt;- c(&quot;apple&quot;, &quot;orange&quot;, &quot;pineapple&quot;)
+index &lt;- &quot;&amp;indexpage=&quot;
+
+url_list &lt;- NULL
+
+for (i in 1:3){
+  for (j in 1:3) {
+    url &lt;- paste0(main, search[i], index, j)
+    url_list &lt;- append(url_list, url)
+  }
+}
+
+url_list</code></pre>
+<pre><code>## [1] &quot;www.main_url.co.kr/search=apple&amp;indexpage=1&quot;    
+## [2] &quot;www.main_url.co.kr/search=apple&amp;indexpage=2&quot;    
+## [3] &quot;www.main_url.co.kr/search=apple&amp;indexpage=3&quot;    
+## [4] &quot;www.main_url.co.kr/search=orange&amp;indexpage=1&quot;   
+## [5] &quot;www.main_url.co.kr/search=orange&amp;indexpage=2&quot;   
+## [6] &quot;www.main_url.co.kr/search=orange&amp;indexpage=3&quot;   
+## [7] &quot;www.main_url.co.kr/search=pineapple&amp;indexpage=1&quot;
+## [8] &quot;www.main_url.co.kr/search=pineapple&amp;indexpage=2&quot;
+## [9] &quot;www.main_url.co.kr/search=pineapple&amp;indexpage=3&quot;</code></pre>
+<div id="climate-watch-data--" class="section level3">
+<h3>climate watch data의 페이지 구성</h3>
+<center>
+<img src = "https://user-images.githubusercontent.com/30010992/66132557-36940600-e630-11e9-9982-e39c42dc0967.jpg" width=80%>
+</center>
+<p>그러나 이번에 스크래핑한 <a href="https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information">www.climatewatchdata.org</a>는 웹페이지가 매우 독특한 구성으로 되어있어 위의 경우처럼 간단한 반복문으로는 url을 취합하기 어려웠다. 그림처럼 개별 섹션(Sectoral Mitication Targets) 및 섹터(Energy | Renewable Energy) 별로 해당되는 목록을 취합하기 위해서는 섹터 및 섹션별 url을 따로 만들어야 했는데 다음과 같은 복잡한 과정을 거쳐야 했기 때문이다.</p>
+<ol style="list-style-type: decimal">
+<li>먼저 url <em><a href="https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information" class="uri">https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information</a></em>로 들어가 총 5개의 섹션 리스트를 가져온다.</li>
+<li>각각의 섹션리스트를 모두 소문자로 변경하여 각 섹션별 주소를 구성한다. (ex: <em><a href="https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=sectoral_mitigation_targets" class="uri">https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=sectoral_mitigation_targets</a></em>)</li>
+<li>각 섹션별로 모든 섹터 리스트(ex, Energy | Renewable Energy, Energy | Renewable Energy:Biofuels….)를 가져온다.</li>
+<li>모든 섹터 리스트를 기호 <strong>“|”</strong> 를 기준으로 쪼갠 다음 <strong>“|”</strong> 뒤에 위치하고 있는 문자를 소문자로 변경한다.</li>
+<li>위 4에서 만든 섹션을 가지고 각 섹션별 전체 주소리스트를 구성한다.</li>
+</ol>
+<p>위의 5단계를 거쳐 최종적으로 만들어진 <em><a href="https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=sectoral_mitigation_targets&amp;sector=renewable_energy" class="uri">https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=sectoral_mitigation_targets&amp;sector=renewable_energy</a></em>의 주소는 <strong>sectoral_mitication</strong> 섹션의 <strong>renewable_energy</strong>섹터의 목록을 스크래핑하는 기본 url이 된다.</p>
+<p>이상의 5가지 단계를 실행하기 위해 다음의 코드를 작성하였다.</p>
+<pre class="r"><code>########### Section 취합 #############
+### 1. 대문 page 이동
+remDr$navigate(&quot;https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=none&amp;sector=none&quot;) 
+## 대문 page source 읽기
+html_page &lt;- remDr$getPageSource()[[1]]
+
+### 2. section 주소  : section_link 주소
+section &lt;- read_html(html_page) %&gt;% html_nodes(&quot;div.accordion-styles__title__2PD3i&quot;) %&gt;% html_text() 
+section_adr &lt;- str_replace_all(str_to_lower(section), &quot; &quot;, &quot;_&quot;) ##대문자 to 소문자, 공백을 &quot;_&quot;로 대체
+
+
+########### 주소 취합 #############
+main &lt;- &quot;https://www.climatewatchdata.org/ndcs/country/IND/sectoral-information?section=&quot;
+section_sector &lt;- NULL
+link_list &lt;- NULL
+
+for (i in 1:length(section_adr)) {
+  
+  section_link &lt;- paste0(main, section_adr[i], &quot;&amp;sector=none&quot;)
+  
+  ### 3. sector 주소  : sector_link 주소
+  remDr$navigate(section_link)
+  Sys.sleep(3) # 3초 딜레이
+  
+  section_page &lt;- remDr$getPageSource()[[1]]
+  sector &lt;- read_html(section_page) %&gt;% html_nodes(&quot;div.ndcs-country-accordion-styles__subAccordion__1zDx7&quot;) %&gt;% html_nodes(&quot;div.accordion-styles__title__2PD3i&quot;) %&gt;% html_text() 
+  
+  link_list &lt;- cbind(i, section[i], section_adr[i], sector)
+  section_sector &lt;- rbind(section_sector, link_list)
+}
+
+section_sector &lt;- data.frame(section_sector)
+names(section_sector) &lt;- c(&quot;index&quot;, &quot;section&quot;, &quot;section_adr&quot;, &quot;sector&quot;)
+section_sector$sector_adr &lt;- str_to_lower(section_sector$sector)
+section_sector$sector_adr &lt;- str_split_fixed(section_sector$sector_adr, &quot;[|]&quot;, 2)[,2]
+section_sector$sector_adr &lt;- str_trim(section_sector$sector_adr)
+section_sector$sector_adr &lt;- str_replace_all(section_sector$sector_adr, &quot;[-:/ ]&quot;, &quot;_&quot;)
+section_sector$sector_adr &lt;- str_replace_all(section_sector$sector_adr, &quot;__&quot;, &quot;_&quot;)
+
+### 주소 만들기
+link_pool &lt;- NULL
+for (i in 1:dim(section_sector)[1]) {
+  link &lt;- paste0(main, section_sector$section_adr[i], &quot;&amp;sector=&quot;, section_sector$sector_adr[i])
+  link_pool &lt;- append(link_pool, link)
+}
+
+section_sector &lt;- cbind(section_sector, link_pool)</code></pre>
+<p>참고로 해당 웹페이지가 java로 구성되었는지 <strong>rvest</strong>로는 html 태그를 확인할 수 없었다. 차선책으로 <strong>Rselenium</strong>을 사용하였으며 끊김없는 안정적인 스크래핑을 위해 중간중간 <em>Sys.sleep(3)</em>의 코드를 추가하였다.</p>
+<p>이 외에 데이터를 취합하는 내용을 포함한 전체 코드는 <a href="https://github.com/gbkim01/web_scraping_with_R/blob/master/1_climate_watch_data_org.R">Github</a>에 올려두었다.</p>
+</div>
+
+            
+
+        </div>
+        <footer class="article-footer">
+  <section id="social-share">
+    <ul class="icons">
+      
+
+
+<li>
+  <a href="//twitter.com/share?url=%2f2019%2f09%2f29%2f&text=URL%20%eb%a6%ac%ec%8a%a4%ed%8a%b8%20%ec%b7%a8%ed%95%a9&via=" target="_blank" class="share-btn twitter">
+    <i class="fab fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2f2019%2f09%2f29%2f" target="_blank" class="share-btn facebook">
+    <i class="fab fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2f2019%2f09%2f29%2f&title=URL%20%eb%a6%ac%ec%8a%a4%ed%8a%b8%20%ec%b7%a8%ed%95%a9" target="_blank" class="share-btn reddit">
+    <i class="fab fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2f2019%2f09%2f29%2f&title=URL%20%eb%a6%ac%ec%8a%a4%ed%8a%b8%20%ec%b7%a8%ed%95%a9" target="_blank" class="share-btn linkedin">
+      <i class="fab fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by gbkim01&body=%2f2019%2f09%2f29%2f" target="_blank" class="share-btn email">
+    <i class="fas fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+    </ul>
+  </section>
+    
+    <a href="/2019/09/29/#disqus_thread" lang="en" class="article-comment-link">
+        Comments
+    </a>
+    
+    
+
+
+</footer>
+
+    </div>
+    
+
+
+    
+<nav id="article-nav">
+    
+    <a href="/2019/09/28/" lang="en" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">블로그에 첫 글을 남긴다.</div>
+    </a>
+    
+
+    
+    <a href="/2019/10/01/" lang="en" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Newer
+      </strong>
+      <div class="article-nav-title">데이터셋의 짝수행과 홀수행 구분</div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gbkim01" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
+
+
+    </section>
+
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by <a href="http://github.com/gbkim01">Gbkim01</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

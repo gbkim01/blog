@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +23,17 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%97%90%EC%84%9C-%EC%A7%9D%EC%88%98%ED%96%89%EA%B3%BC-%ED%99%80%EC%88%98%ED%96%89-%EC%84%A0%EB%B3%84%ED%95%98%EB%8A%94-%EB%8B%A4%EB%A5%B8-%EB%B0%A9%EB%B2%95/</loc>
+    <loc>/2019/10/04/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,7 +43,7 @@
   </url>
   
   <url>
-    <loc>/post/%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%94%84%EB%A0%88%EC%9E%84%EC%97%90%EC%84%9C-%EC%A7%9D%EC%88%98%ED%96%89%EA%B3%BC-%ED%99%80%EC%88%98%ED%96%89-%EC%84%A0%EB%B3%84%ED%95%98%EA%B8%B0/</loc>
+    <loc>/2019/10/01/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,8 +58,13 @@
   </url>
   
   <url>
-    <loc>/post/web-scraping-with-r-www-climatewatchdata-org/</loc>
+    <loc>/2019/09/29/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2019-09-28T21:49:20+02:00</lastmod>
   </url>
   
   <url>
@@ -68,7 +83,7 @@
   </url>
   
   <url>
-    <loc>/post/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%B2%AB-%EA%B8%80%EC%9D%84-%EB%82%A8%EA%B8%B4%EB%8B%A4/</loc>
+    <loc>/2019/09/28/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,11 +93,11 @@
   </url>
   
   <url>
-    <loc>/archive/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>/alltaxa/</loc>
+    <loc>/stickies/</loc>
   </url>
   
 </urlset>

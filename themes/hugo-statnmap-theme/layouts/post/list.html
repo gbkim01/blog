@@ -1,0 +1,10 @@
+{{ define "main" }}
+    {{ $context := . }}
+    
+    {{ with .Content }}
+        {{ partial "single.html" $context }}
+    {{ else }}
+        {{ partial "list_with_thumbnail" . }}
+    {{ end }}
+{{ end }}
+
