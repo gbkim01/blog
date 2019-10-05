@@ -1,38 +1,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日常茶飯事</title>
-    <link>/</link>
+    <link>/blog/</link>
     <description>Recent content on 日常茶飯事</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>/blog/post/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
+      <guid>/blog/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/blog/about/</link>
       <pubDate>Sat, 28 Sep 2019 21:49:20 +0200</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/blog/about/</guid>
       <description>日常茶飯事 시덥잖은 일들로 시시덕거린다. 권태가 가시지 않아 뭐라도 할까 싶어 블로그를 만들었다. 마감은 다가오고 발등의 불은 눈썹 까지 옮겨 붙었건만, 모든 책무</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>/blog/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>/blog/contact/</guid>
       <description></description>
     </item>
     

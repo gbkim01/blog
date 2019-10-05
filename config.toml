@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://gbkim01.github.io/blog/"
 title = "日常茶飯事"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "gbkim01"

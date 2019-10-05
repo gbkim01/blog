@@ -3,101 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/blog/categories/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/blog/post/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/blog/categories/r/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r%EB%AC%B8%EB%B2%95/</loc>
+    <loc>/blog/tags/r%EB%AC%B8%EB%B2%95/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/blog/tags/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/blog/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/10/04/</loc>
+    <loc>/blog/2019/10/04/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/web-scraping/</loc>
+    <loc>/blog/tags/web-scraping/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/10/01/</loc>
+    <loc>/blog/2019/10/01/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rselenium/</loc>
+    <loc>/blog/tags/rselenium/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rvest/</loc>
+    <loc>/blog/tags/rvest/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/09/29/</loc>
+    <loc>/blog/2019/09/29/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/blog/about/</loc>
     <lastmod>2019-09-28T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>/blog/tags/blogdown/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/daily/</loc>
+    <loc>/blog/tags/daily/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/newpost/</loc>
+    <loc>/blog/tags/newpost/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/09/28/</loc>
+    <loc>/blog/2019/09/28/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC/</loc>
+    <loc>/blog/categories/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/blog/contact/</loc>
   </url>
   
   <url>
-    <loc>/stickies/</loc>
+    <loc>/blog/stickies/</loc>
   </url>
   
 </urlset>
